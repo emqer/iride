@@ -36,6 +36,21 @@ Order does not matter — you can open the launcher before or after the game.
 It is a single file. Nothing to install, nothing to unpack, no extra DLL to
 place next to the game.
 
+## Where it works
+
+**Private matches and servers you host.** There, your game is the authority, so
+an edit is the real value and behaves exactly as you would expect.
+
+**Not on servers you do not host.** iride edits your own client's copy of the
+weapon definitions — it has no networking of any kind. A server you connect to
+keeps its own definitions and decides damage, hit registration and what
+everyone else sees. Your client would predict with your numbers and get
+corrected back to the server's, which produces desync, not an advantage.
+
+Which is the honest version of a simpler point: this is a tool for messing
+about with weapons in your own game. Trying to use it against other players
+would be cheating, and it would not work anyway.
+
 ## Updating
 
 The launcher checks for a new version when it starts and offers it in one
