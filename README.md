@@ -56,6 +56,26 @@ the key built into it.
 - The weapon pool is rebuilt on every map load. Use **Refresh pool** after
   changing map if the list looks stale.
 
+## Licence
+
+iride is licensed under the [GNU General Public License v3.0](LICENSE) or
+later. It uses the IW4x client's published game struct definitions, which are
+GPL-3.0, so iride is GPL-3.0 too.
+
+### Getting the source
+
+The source is not published here, but you are entitled to it.
+
+**Written offer:** for at least three years from the date of each release,
+praisembr will give any person who possesses the `iride-launcher.exe` binary a
+complete machine-readable copy of the corresponding source code for that
+release, under the terms of the GPL-3.0, at no charge. To request it, open an
+issue on this repository.
+
+Third-party components bundled into the binary — Dear ImGui, MinHook and the
+embedded fonts — are listed with their licences in
+[THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
+
 ---
 
 Made by **praisembr**
